@@ -1,0 +1,11 @@
+/**
+ *
+ *	@version	0.0.0
+ *	@author		Christian Blaschke <mail@platdesign.de>
+ *	@updated	2015-10-19 20:05:31
+ *
+ *	Based on the fabulous work of @LeaVerou =)
+ *	http://dabblet.com/gist/d21d495d7ce2e5579916
+ *
+ */
+.d-btn-play{border:0;width:20px;height:20px;background:-webkit-linear-gradient(currentColor,currentColor) left,-webkit-linear-gradient(currentColor,currentColor) right;background:linear-gradient(currentColor,currentColor) left,linear-gradient(currentColor,currentColor) right;background-size:42% 100%;background-repeat:no-repeat;-webkit-clip-path:polygon(0 0,100% 0,100% 100%,0 100%);clip-path:polygon(0 0,100% 0,100% 100%,0 100%);font-size:500%;color:#000;-webkit-transition:all .2s;transition:all .2s}.d-btn-play.btn-play-playing{-webkit-clip-path:polygon(0 0,100% 50%,100% 50%,0 100%);clip-path:polygon(0 0,100% 50%,100% 50%,0 100%);background-size:51% 100%,51% 100%}

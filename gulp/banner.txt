@@ -1,0 +1,10 @@
+/**
+ *
+ *	@version	<%= pkg.version %>
+ *	@author		<%= pkg.author %>
+ *	@updated	<%= date %>
+ *
+ *	Based on the fabulous work of @LeaVerou =)
+ *	http://dabblet.com/gist/d21d495d7ce2e5579916
+ *
+ */

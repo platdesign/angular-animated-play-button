@@ -1,0 +1,34 @@
+/**
+ * Directive btn-play styles
+ *
+ * Based on the fabulous work of @LeaVerou =)
+ * http://dabblet.com/gist/d21d495d7ce2e5579916
+ */
+
+$d-btn-play-color: black !default;
+$d-btn-play-transition-speed: .2s !default;
+$d-btn-play-size: 20px !default;
+
+.d-btn-play {
+	border: 0;
+	width: $d-btn-play-size;
+	height: $d-btn-play-size;
+
+	background: linear-gradient(currentColor, currentColor) left,
+							linear-gradient(currentColor, currentColor) right;
+	background-size: 42% 100%; /* Set pause bar width here */
+	background-repeat: no-repeat;
+
+	-webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+	clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+
+	font-size: 500%;
+	color: $d-btn-play-color;
+	transition: all $d-btn-play-transition-speed;
+
+	&.btn-play-playing {
+		-webkit-clip-path: polygon(0 0, 100% 50%, 100% 50%, 0 100%);
+		clip-path: polygon(0 0, 100% 50%, 100% 50%, 0 100%);
+		background-size: 51% 100%, 51% 100%;
+	}
+}
