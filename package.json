@@ -2,8 +2,8 @@
   "name": "btn-play",
   "description": "Youtube like animated play button",
   "author": "Christian Blaschke <mail@platdesign.de>",
-  "version": "0.0.0",
-  "main":"src/index.js",
+  "version": "0.0.1",
+  "main": "src/index.js",
   "dependencies": {},
   "repository": "https://github.com/platdesign/angular-animated-play-button.git",
   "devDependencies": {
