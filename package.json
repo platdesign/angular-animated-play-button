@@ -5,7 +5,7 @@
   "version": "0.0.0",
   "main":"src/index.js",
   "dependencies": {},
-  "repository": "",
+  "repository": "https://github.com/platdesign/angular-animated-play-button.git",
   "devDependencies": {
     "angular": "^1.4.7",
     "gulp": "^3.9.0",
