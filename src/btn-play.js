@@ -1,6 +1,6 @@
 'use strict';
 
-var angular = require('angular');
+var angular = global.angular;
 
 var mod = module.exports = angular.module('pd.btn-play', []);
 
