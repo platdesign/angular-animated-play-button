@@ -11,7 +11,7 @@ mod.directive('btnPlay', function() {
 		link: function(scope, el, attr) {
 
 			// Add btn-play class
-			el.addClass('btn-play');
+			el.addClass('d-btn-play');
 
 			// watch btnPlay-expression for changes
 			scope.$watch(function() {
